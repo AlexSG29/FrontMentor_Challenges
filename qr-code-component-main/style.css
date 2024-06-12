@@ -1,8 +1,8 @@
 .qr-image img {
     width: 100%;
-    margin-bottom: 20px;
-    border-radius: 10px;
+    border-radius: 18px;
   }
+
   body {
     display: flex;
     justify-content: center;
@@ -17,21 +17,22 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 400px;
-    height: 700px;
+    width: 320px;
+    height: 497px;
     padding: 25px;
     text-align: center;
     margin: 10%;
     margin-bottom: 20px;
-    border-radius: 10px;
+    border-radius: 28px;
     background-color: hsl(0, 0%, 100%);
   }
   .title-card h1 {
-    font-size: 35px;
+    font-size: 25px;
     color: hsl(218, 44%, 22%);
   }
+
   .text-card p {
-    font-size: 15px;
+    font-size: 19px;
     color: hsl(220, 15%, 55%);
   }
   
