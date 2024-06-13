@@ -1,46 +1,4 @@
-/* .qr-image img {
-    width: 100%;
-    border-radius: 18px;
-    margin-top: 35px;
-  }
-
-  body {
-    display: flex;
-    justify-content: center;
-    margin: 0%;
-    align-items: center;
-    background-color: hsl(212, 45%, 89%);
-    font-family: Outfit;
-  }
-  
-  .card {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 320px;
-    height: 497px;
-    padding: 25px;
-    text-align: center;
-    margin: 10%;
-    margin-bottom: 20px;
-    border-radius: 28px;
-    background-color: hsl(0, 0%, 100%);
-  }
-  .title-card h1 {
-    font-size: 25px;
-    color: hsl(218, 44%, 22%);
-    margin: 22px 0;
-  }
-
-  .text-card p {
-    font-size: 19px;
-    color: hsl(220, 15%, 55%);
-    margin: 0 0px 35px 0px;
-  }
-   */
-
-/* CSS Reset (you can use a modern CSS reset from Andy Bell or Josh Comeau) */
+/* RESET */
 *,
 *::before,
 *::after {
