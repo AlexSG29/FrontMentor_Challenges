@@ -1,0 +1,107 @@
+body {
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    margin: 0;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.attribution {
+    font-size: 10px;
+    text-align: center;
+    color: hsl(0, 0%, 50%);
+    margin-top: 20px;
+}
+
+.card-content {
+    background-color: hsl(0, 0%, 100%);
+    border: hsl(0, 0%, 7%) solid 1px;
+    border-radius: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align:left;
+    width: 390px;
+    height: 525px;
+    box-shadow: 6px 6px 0px 1px hsl(0, 0%, 7%);
+}
+
+
+.tag {
+    background-color: hsl(47, 88%, 63%);
+    border-radius:7px;
+    padding: 7px;
+    text-align: center;
+    justify-content: center;
+    width: 25%;
+    margin: 25px 0;
+}
+.tag h1 {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 800;
+}
+
+.ilustration img {
+    width: 100%;
+    border-radius: 11px;
+    margin-top: 25px;
+}
+
+.ilustration {
+    margin: 0 25px;
+}
+.text-card {
+    margin: 0 25px;
+}
+.text-card h4 {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 700;
+}
+.text-card h1 {
+    color: hsl(0, 0%, 7%);
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.card-content:hover{
+    box-shadow: 10px 10px 0px 1px hsl(0, 0%, 7%);
+    cursor: pointer;
+    .text-card h1 {
+        color: hsl(47, 88%, 63%);
+    }
+}
+.text-card p {
+    color: #7F7F7F;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.avatar {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start; 
+    gap: 15px; 
+    margin: 5px 25px; 
+    padding: 0; 
+    align-items: center;
+}
+.avatar img {
+    width: auto;
+    height: 55%;
+}
+.avatar p {
+    font-size: 14px;
+    font-weight: 800;
+    padding: 0;
+    margin: 0;
+}
+
