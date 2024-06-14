@@ -42,8 +42,6 @@ body {
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    
-
 }
 
 .container {
@@ -90,6 +88,43 @@ img {
 .preparation p {
     font-weight: bold;
     color: var(--Dark-Raspberry);
+}
+
+.ingredients-list {
+    border-bottom: 0.1rem solid var(--Light-Grey);
+    padding-bottom: 2rem;
+}
+.instructions-list {
+    border-bottom: 0.1rem solid var(--Light-Grey);
+    padding-bottom: 2rem;
+}
+
+.prop {
+    position: relative;
+    left: 2rem;
+}
+table td.value {
+    padding: 0;
+    color: var(--Numeg);
+    font-weight: bold;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+td {
+    padding: 0.8rem 0;
+}
+tr {
+    border-top: 1px solid var(--Light-Grey);
+    border-bottom: 1px solid var(--Light-Grey);
+}
+/* Remove the border from the first and last row */
+tr:first-child {
+    border-top: none;
+}
+tr:last-child{
+    border-bottom: none;
 }
 
 footer {
