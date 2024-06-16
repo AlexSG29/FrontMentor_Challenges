@@ -13,21 +13,25 @@
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="./images/favicon-32x32.png"
+      href="/src/images/favicon-32x32.png"
     />
     <title>Frontend Mentor | QR code component</title>
-    <link rel="stylesheet" href="style.css" />
+    <!-- Tailwind CND -->
+    <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body>
+  <body class="flex flex-col items-center content-center h-screen ">
     <main>
-      <section class="card">
-        <img src="images/image-qr-code.png" alt="QR code to FrontendMentor.io" />
+      <div class="max-w-xs">
+        <img 
+          class="w-full"
+          src="images/image-qr-code.png" alt="QR code to FrontendMentor.io" 
+          />
         <h1>Improve your front-end skills by building projects</h1>
         <p>
           Scan the QR code to visit Frontend Mentor and take your coding skills
           to the next level
         </p>
-      </section>
+      </div>
     </main>
   </body>
 </html>
